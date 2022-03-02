@@ -14,3 +14,8 @@ repos:
     rev: v0.3.0
     hooks:
       - id: black_nbconvert
+
+  -   repo: https://github.com/pycqa/flake8
+      rev: 4.0.1 
+      hooks:
+      -   id: flake8
